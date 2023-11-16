@@ -12,6 +12,11 @@
         android:theme="@style/Theme.TestGITHUB"
         tools:targetApi="31">
         <activity
+            android:name=".page131"
+            android:exported="false"
+            android:label="@string/title_activity_page131"
+            android:theme="@style/Theme.TestGITHUB.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
